@@ -1,0 +1,295 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/gasparekferenc/Projects/dotnet-forum-starter/Forum.Tests/Forum.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/gasparekferenc/Projects/dotnet-forum-starter/forum-app-demo/Forum.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gasparekferenc/Projects/dotnet-forum-starter/forum-app-demo/Forum.Web.csproj",
+        "projectName": "Forum.Web",
+        "projectPath": "/Users/gasparekferenc/Projects/dotnet-forum-starter/forum-app-demo/Forum.Web.csproj",
+        "packagesPath": "/Users/gasparekferenc/.nuget/packages/",
+        "outputPath": "/Users/gasparekferenc/Projects/dotnet-forum-starter/forum-app-demo/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/gasparekferenc/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "/Users/gasparekferenc/Projects/dotnet-forum-starter/Forum.Data/Forum.Data.csproj": {
+                "projectPath": "/Users/gasparekferenc/Projects/dotnet-forum-starter/Forum.Data/Forum.Data.csproj"
+              },
+              "/Users/gasparekferenc/Projects/dotnet-forum-starter/Forum.Service/Forum.Service.csproj": {
+                "projectPath": "/Users/gasparekferenc/Projects/dotnet-forum-starter/Forum.Service/Forum.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/gasparekferenc/Projects/dotnet-forum-starter/Forum.Data/Forum.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gasparekferenc/Projects/dotnet-forum-starter/Forum.Data/Forum.Data.csproj",
+        "projectName": "Forum.Data",
+        "projectPath": "/Users/gasparekferenc/Projects/dotnet-forum-starter/Forum.Data/Forum.Data.csproj",
+        "packagesPath": "/Users/gasparekferenc/.nuget/packages/",
+        "outputPath": "/Users/gasparekferenc/Projects/dotnet-forum-starter/Forum.Data/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/gasparekferenc/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/gasparekferenc/Projects/dotnet-forum-starter/Forum.Service/Forum.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gasparekferenc/Projects/dotnet-forum-starter/Forum.Service/Forum.Service.csproj",
+        "projectName": "Forum.Service",
+        "projectPath": "/Users/gasparekferenc/Projects/dotnet-forum-starter/Forum.Service/Forum.Service.csproj",
+        "packagesPath": "/Users/gasparekferenc/.nuget/packages/",
+        "outputPath": "/Users/gasparekferenc/Projects/dotnet-forum-starter/Forum.Service/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/gasparekferenc/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "/Users/gasparekferenc/Projects/dotnet-forum-starter/Forum.Data/Forum.Data.csproj": {
+                "projectPath": "/Users/gasparekferenc/Projects/dotnet-forum-starter/Forum.Data/Forum.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/gasparekferenc/Projects/dotnet-forum-starter/Forum.Tests/Forum.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gasparekferenc/Projects/dotnet-forum-starter/Forum.Tests/Forum.Tests.csproj",
+        "projectName": "Forum.Tests",
+        "projectPath": "/Users/gasparekferenc/Projects/dotnet-forum-starter/Forum.Tests/Forum.Tests.csproj",
+        "packagesPath": "/Users/gasparekferenc/.nuget/packages/",
+        "outputPath": "/Users/gasparekferenc/Projects/dotnet-forum-starter/Forum.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/gasparekferenc/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "/Users/gasparekferenc/Projects/dotnet-forum-starter/forum-app-demo/Forum.Web.csproj": {
+                "projectPath": "/Users/gasparekferenc/Projects/dotnet-forum-starter/forum-app-demo/Forum.Web.csproj"
+              },
+              "/Users/gasparekferenc/Projects/dotnet-forum-starter/Forum.Data/Forum.Data.csproj": {
+                "projectPath": "/Users/gasparekferenc/Projects/dotnet-forum-starter/Forum.Data/Forum.Data.csproj"
+              },
+              "/Users/gasparekferenc/Projects/dotnet-forum-starter/Forum.Service/Forum.Service.csproj": {
+                "projectPath": "/Users/gasparekferenc/Projects/dotnet-forum-starter/Forum.Service/Forum.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.3.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.7.99, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.8.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

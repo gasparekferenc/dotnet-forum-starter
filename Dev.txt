@@ -1,0 +1,30 @@
+﻿2020.02.17 - ismerkedés
+
+- Projekt fordítása
+=> dotnet build
+OK
+
+- Adatbázis kapcsolat beállítása
+"DefaultConnection": "Server=192.168.0.123,1433;Database=ForumDemo;User Id=Gasi;Password=Forum1012;"
+
+- Ellenőrizzük a EF Core CLI 
+
+aktuális folder (.sln):    /Users/gasparekferenc/Projects/dotnet-forum-starter
+=> dotnet restore
+OK
+=> dotnet-ef
+OK
+
+
+- Adatbázis aktualizálása
+aktuális folder (Startup.cs):    /Users/gasparekferenc/Projects/dotnet-forum-starter/forum-app-demo
+=> dotnet-ef database update
+OK
+
+- wwwroot dolgai...
+=> bower update
+OK
+
+- css, js, images mappák
+A wwwroot/ alatt létre kell hozni a mappákat.
+
